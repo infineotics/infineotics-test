@@ -1,13 +1,247 @@
 h1 {
-	font-size: 20px;
 	text-align: center;
 	font-weight: bold;
 }
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
 
-div {
-	
+@media (min-width: 992px) {
+
+.container1 {
+	border-width: 2px;
+	margin: 10px;
+	float: left;
+	width: 30%;
+	border-color: black;
+	border-style: solid;
+	background-color: grey;
+}
+
+.container2 {
+	border-width: 2px;
+	margin: 10px;
+	float: left;
+	width: 30%;
+	border-color: black;
+	border-style: solid;
+	background-color: grey;
+}
+
+.container3 {
+	border-width: 2px;
+	margin: 10px;
+	float: left;
+	width: 30%;
+	border-color: black;
+	border-style: solid;
+	background-color: grey;
+}
+
+.firstDiv {
+	border-width: 2px;
+	position: relative;
+	float: right;
+	top: -2px;
+	right: -2px;
+	width: 100px;
+	border-color: black;
+	border-style: solid;
+	background-color: pink;
+	text-align: center;
+}
+
+.secondDiv {
+	border-width: 2px;
+	position: relative;
+	float: right;
+	top: -2px;
+	right: -2px;
+	width: 100px;
+	border-color: black;
+	border-style: solid;
+	background-color: red;
+	text-align: center;
+}
+
+.thirdDiv {
+	border-width: 2px;
+	position: relative;
+	float: right;
+	top: -2px;
+	right: -2px;
+	width: 100px;
+	border-color: black;
+	border-style: solid;
+	background-color: yellow;
+	text-align: center;
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+.container1 {
+	border-width: 2px;
+	float: left;
+	margin: 1%;
+	width: 48%;
+	border-color: black;
+	border-style: solid;
+	background-color: grey;
+	box-sizing: border-box;
+}
+
+.container2 {
+	border-width: 2px;
+	float: left;
+	margin: 1%;
+	width: 48%;
+	border-color: black;
+	border-style: solid;
+	background-color: grey;
+	box-sizing: border-box;
+}
+
+.container3 {
+	border-width: 2px;
+	float: left;
+	margin: 1%;
+	width: 98%;
+	border-color: black;
+	border-style: solid;
+	background-color: grey;
+	box-sizing: border-box;1%
+}
+
+.firstDiv {
+	border-width: 2px;
+	font-size: 16px;
+	font-family: arial;
+	position: relative;
+	float: right;
+	top: -2px;
+	right: -2px;
+	width: 100px;
+	border-color: black;
+	border-style: solid;
+	background-color: pink;
+	text-align: center;
+}
+
+.secondDiv {
+	border-width: 2px;
+	font-size: 16px;
+	font-family: arial;
+	position: relative;
+	float: right;
+	top: -2px;
+	right: -2px;
+	width: 100px;
+	border-color: black;
+	border-style: solid;
+	background-color: red;
+	text-align: center;
+}
+
+.thirdDiv {
+	border-width: 2px;
+	font-size: 16px;
+	font-family: arial;
+	position: relative;
+	float: right;
+	top: -2px;
+	right: -2px;
+	width: 100px;
+	border-color: black;
+	border-style: solid;
+	background-color: yellow;
+	text-align: center;
+}
+}
+
+@media (max-width: 767px) {
+
+.container1 {
+	border-width: 2px;
+	float: left;
+	margin: 1%;
+	width: 98%;
+	border-color: black;
+	border-style: solid;
+	background-color: grey;
+	box-sizing: border-box;
+}
+
+.container2 {
+	border-width: 2px;
+	float: left;
+	margin: 1%;
+	width: 98%;
+	border-color: black;
+	border-style: solid;
+	background-color: grey;
+	box-sizing: border-box;
+}
+
+.container3 {
+	border-width: 2px;
+	float: left;
+	margin: 1%;
+	width: 98%;
+	border-color: black;
+	border-style: solid;
+	background-color: grey;
+	box-sizing: border-box;1%
+}
+
+.firstDiv {
+	border-width: 2px;
+	font-size: 16px;
+	font-family: arial;
+	position: relative;
+	float: right;
+	top: -2px;
+	right: -2px;
+	width: 100px;
+	border-color: black;
+	border-style: solid;
+	background-color: pink;
+	text-align: center;
+}
+
+.secondDiv {
+	border-width: 2px;
+	font-size: 16px;
+	font-family: arial;
+	position: relative;
+	float: right;
+	top: -2px;
+	right: -2px;
+	width: 100px;
+	border-color: black;
+	border-style: solid;
+	background-color: red;
+	text-align: center;
+}
+
+.thirdDiv {
+	border-width: 2px;
+	font-size: 16px;
+	font-family: arial;
+	position: relative;
+	float: right;
+	top: -2px;
+	right: -2px;
+	width: 100px;
+	border-color: black;
+	border-style: solid;
+	background-color: yellow;
+	text-align: center;
+}
 }
 
 p {
-	
+	padding: 15px;
 }
+
